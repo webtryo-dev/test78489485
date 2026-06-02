@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avantagized | Web Agency for Small Businesses</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <img src="/logo.png" alt="Avantagized Logo" class="logo-img" />
+          <span class="logo-text">Avantagized</span>
+        </div>
+        <div class="nav-actions">
+          <a href="https://dashboard.avantagized.com" class="btn btn-primary login-btn">Login</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Elevate Your Small Business with a <span>Web3 Edge</span></h1>
+        <p class="hero-subtitle">We craft stunning, modern websites that captivate your audience and drive growth. Stand out from the competition with Avantagized.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-large btn-gradient">Get Started</a>
+          <a href="#services" class="btn btn-large btn-outline">Explore Services</a>
+        </div>
+      </div>
+      <!-- 3D Canvas Container -->
+      <div class="hero-3d-container" id="canvas-container"></div>
+    </header>
+
+    <!-- What We Do Section -->
+    <section id="services" class="section bg-light">
+      <div class="section-header">
+        <h2 class="section-title">What We Do</h2>
+        <p class="section-subtitle">Comprehensive web solutions tailored for small businesses.</p>
+      </div>
+      <div class="grid services-grid">
+        <div class="card card-3d">
+          <div class="card-icon">🚀</div>
+          <h3>Custom Web Design</h3>
+          <p>We build beautiful, responsive websites that reflect your brand identity and engage your customers seamlessly.</p>
+        </div>
+        <div class="card card-3d">
+          <div class="card-icon">⚙️</div>
+          <h3>Modern Web Apps</h3>
+          <p>Leverage the power of Web3 and modern SaaS architectures to automate and scale your business operations.</p>
+        </div>
+        <div class="card card-3d">
+          <div class="card-icon">📈</div>
+          <h3>SEO & Growth</h3>
+          <p>Our websites are optimized from the ground up to rank higher on search engines and attract local traffic.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Client Success Stories</h2>
+        <p class="section-subtitle">See what other small businesses are saying about Avantagized.</p>
+      </div>
+      <div class="grid testimonials-grid">
+        <div class="testimonial-card card-3d">
+          <p class="quote">"Avantagized completely transformed our online presence. Our new website is fast, modern, and has brought in a 40% increase in leads!"</p>
+          <div class="client-info">
+            <div class="client-avatar">SJ</div>
+            <div>
+              <h4>Sarah Jenkins</h4>
+              <span>Owner, Bloom Florals</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card card-3d">
+          <p class="quote">"The 3D design elements they incorporated made our brand feel so premium. Outstanding service and communication throughout."</p>
+          <div class="client-info">
+            <div class="client-avatar">MR</div>
+            <div>
+              <h4>Mike Ross</h4>
+              <span>Founder, Peak Fitness</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card card-3d">
+          <p class="quote">"We didn't know where to start, but the Avantagized team guided us every step of the way. Highly recommended for any small business!"</p>
+          <div class="client-info">
+            <div class="client-avatar">AL</div>
+            <div>
+              <h4>Amanda Lee</h4>
+              <span>CEO, TechSavvy Consult</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="section bg-light">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2 class="section-title">Let's Build Something Great</h2>
+          <p class="section-subtitle">Ready to take your business to the next level? Reach out to us today.</p>
+          <div class="contact-details">
+            <div class="detail-item">
+              <span class="detail-icon">✉️</span>
+              <a href="mailto:help@avantagized.com">help@avantagized.com</a>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">📞</span>
+              <a href="tel:+13072014305">+1 (307) 201-4305</a>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">📍</span>
+              <span>30 N Gould St, Sheridan, WY, 82801</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper card-3d">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="business">Business Name</label>
+              <input type="text" id="business" name="business" placeholder="Acme Corp" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" required />
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit Request</button>
+            <p id="formMessage" class="form-message"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo">
+            <img src="/logo.png" alt="Avantagized Logo" class="logo-img" />
+            <span class="logo-text">Avantagized</span>
+          </div>
+          <p>Empowering small businesses with cutting-edge web design and robust digital experiences.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://dashboard.avantagized.com">Login</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="mailto:help@avantagized.com">help@avantagized.com</a></li>
+            <li><a href="tel:+13072014305">+1 (307) 201-4305</a></li>
+            <li>30 N Gould St, Sheridan, WY, 82801</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Avantagized. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
